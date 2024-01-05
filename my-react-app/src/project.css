@@ -1,0 +1,24 @@
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .project-text {
+    width: 50%;
+  }
+  
+  .project-image {
+    width: 50%;
+  }
+  
+  /* Alternating styles for even and odd projects */
+  .project-container.even {
+    flex-direction: row-reverse;
+  }
+  
+  .project-container.odd {
+    flex-direction: row;
+  }
+  
