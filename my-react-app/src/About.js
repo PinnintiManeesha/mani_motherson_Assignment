@@ -10,7 +10,7 @@ function About() {
   return (
     <div>
     <div className="cont">
-        <div>
+        <div className='des'>
           <h1 className="headelement">UI/UX Designer</h1>
           <h1 className="main-head">Hello, my name <br/> 
           is Maneesha Pinninti</h1>

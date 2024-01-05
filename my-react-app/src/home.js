@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Girlimage from './Girlimage.jpeg';
 import Projects from './project.js';
 import "./home.css";
+import Contact from './contact.js';
 
 function Home({ projects, updateProjects }) {
   const [projectName, setProjectName] = useState('');
@@ -33,7 +34,7 @@ function Home({ projects, updateProjects }) {
   return (
     <div>
       <div className="cont">
-        <div>
+        <div className='des'>
           <h1 className="headelement">UI/UX Designer</h1>
           <h1 className="main-head">Hello, my name <br/> 
           is Maneesha Pinninti</h1>
@@ -61,7 +62,10 @@ function Home({ projects, updateProjects }) {
           </button>
         </form>
       </div>
-      <Projects projects={projects} />
+      {projects && projects.length > 0 && (
+        <Projects projects={projects} />
+      )}
+      <Contact/>
     </div>
   );
 }

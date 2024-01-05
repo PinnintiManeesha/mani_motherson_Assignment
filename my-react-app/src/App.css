@@ -40,8 +40,12 @@ form {
   flex-direction: column;
 }
 .cont{
-  display:flex;
+  
   flex-direction:row;
+  padding-left: 20px;
+  .des {
+display: inline-block;
+  }
 }
 
 .form-heading {
@@ -88,8 +92,7 @@ textarea {
   background-color: #45a049;
 }
 .img-section {
-  position: absolute;
-  right: 0px;
+  float: right;
 }
 
 
@@ -100,6 +103,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 20px;
 }
 
 .logo {
@@ -121,6 +125,7 @@ nav a {
 
 .form-element {
   display: flex;
+  margin-top: 30px;
   justify-content: center;
   form {
     width: 500px;
@@ -161,3 +166,33 @@ nav a {
     width: 50%; /* Adjust width for large screens */
   }
 }
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .cont{
+    height: 680px;
+  }
+  .img-section {
+    .image {
+      height: 268px;
+    width: 332px;
+    margin-top: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  
+}
+
