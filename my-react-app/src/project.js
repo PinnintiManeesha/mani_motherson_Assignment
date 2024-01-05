@@ -9,16 +9,14 @@ function Projects({ projects }) {
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
-            <div className={`project-container ${index % 2 === 0 ? 'even' : 'odd'}`}>
-              <div className="project-text">
+            <div className={`projectcontainer ${index % 2 === 0 ? 'even' : 'odd'}`}>
+              <div className="projecttext">
                 <strong>{project.name}</strong>
                 <p>{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer">
-                  Project Link
-                </a>
+                 <button className="viewbutton"> View Project </button>
               </div>
-              <div className="project-image">
-              <img src={tech} className="App-logo" alt="logo" />
+              <div className="projectimage">
+              <img src={tech} className="imageel" alt="image" />
               </div>
             </div>
           </li>

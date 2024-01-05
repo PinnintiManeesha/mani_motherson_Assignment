@@ -1,24 +1,56 @@
-.project-container {
+.projectcontainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
-  }
-  
-  .project-text {
+}
+
+.projecttext {
     width: 50%;
-  }
-  
-  .project-image {
+}
+
+.projectimage {
     width: 50%;
-  }
-  
-  /* Alternating styles for even and odd projects */
-  .project-container.even {
+}
+
+.projectcontainer.even {
     flex-direction: row-reverse;
-  }
-  
-  .project-container.odd {
+}
+
+.projectcontainer.odd {
     flex-direction: row;
-  }
-  
+}
+
+.viewbutton {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
+    height: 30px;
+    width: 100px;
+}
+
+.imageel {
+    height: 250px;
+    width: 350px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .projectcontainer {
+        flex-direction: column;
+    }
+
+    .projecttext,
+    .projectimage {
+        width: 100%;
+    }
+
+    .projectcontainer.even,
+    .projectcontainer.odd {
+        flex-direction: column;
+    }
+}

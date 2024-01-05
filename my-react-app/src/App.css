@@ -22,14 +22,14 @@
   list-style: none;
   padding: 0;
   display: flex;
-  flex-direction: row; /* Display items in a row */
+  flex-direction: row;
 }
 
 .right-container li {
   margin-right: 10px;
 }
 
-/* Additional styling for buttons and other elements can be added as needed */
+
 form {
   max-width: 400px;
   padding: 20px;
@@ -126,4 +126,38 @@ nav a {
     width: 500px;
   }
 
+}
+
+/* For screens smaller than 600px (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  .main-div {
+    flex-direction: column;
+  }
+
+  .cont {
+    flex-direction: column;
+  }
+
+  .form-element form {
+    width: 100%; /* Adjust width for small screens */
+  }
+}
+
+/* For screens between 601px and 1024px (e.g., tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .left-container,
+  .right-container {
+    padding: 10px; /* Adjust padding for medium-sized screens */
+  }
+
+  .form-element form {
+    width: 70%; /* Adjust width for medium-sized screens */
+  }
+}
+
+/* For screens larger than 1024px (e.g., desktops) */
+@media only screen and (min-width: 1025px) {
+  .form-element form {
+    width: 50%; /* Adjust width for large screens */
+  }
 }
