@@ -1,6 +1,6 @@
 import './App.css'
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route, Link } from 'react-router-dom';
 import Projects from './project.js';
 import Contact from './contact.js';
 import Home from './home.js';
@@ -26,7 +26,6 @@ function App() {
            
           </nav>
         </header>
-
         <Routes>
           <Route
             path="/"
