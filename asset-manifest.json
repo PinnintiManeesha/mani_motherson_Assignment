@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mani_motherson_Assignment/static/css/main.f1a2a09a.css",
+    "main.js": "/mani_motherson_Assignment/static/js/main.7b569a3b.js",
+    "static/js/787.38f16daf.chunk.js": "/mani_motherson_Assignment/static/js/787.38f16daf.chunk.js",
+    "static/media/Girlimage.jpeg": "/mani_motherson_Assignment/static/media/Girlimage.fe545496aa7ecdaa2b03.jpeg",
+    "static/media/tech.jpeg": "/mani_motherson_Assignment/static/media/tech.67b387e4a80535f5255d.jpeg",
+    "index.html": "/mani_motherson_Assignment/index.html",
+    "main.f1a2a09a.css.map": "/mani_motherson_Assignment/static/css/main.f1a2a09a.css.map",
+    "main.7b569a3b.js.map": "/mani_motherson_Assignment/static/js/main.7b569a3b.js.map",
+    "787.38f16daf.chunk.js.map": "/mani_motherson_Assignment/static/js/787.38f16daf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1a2a09a.css",
+    "static/js/main.7b569a3b.js"
+  ]
+}
