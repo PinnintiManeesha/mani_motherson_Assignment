@@ -187,12 +187,11 @@ nav a {
     .image {
       height: 268px;
     width: 332px;
-    margin-top: 20px;
+    margin-top: 20px;git 
+    margin-right: 20px;
     }
   }
 }
 
-@media screen and (max-width: 600px) {
-  
-}
+
 
